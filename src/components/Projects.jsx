@@ -36,23 +36,24 @@ const Projects = () => {
       <h2 className="text-4xl font-bold mb-12 text-center">Projects</h2>
 
       <div className="w-full flex justify-center">
-        <div
-          className="
-            grid 
-            grid-cols-1 
-            sm:grid-cols-2 
-            md:flex 
-            md:flex-row 
-            md:gap-12 
-            md:overflow-x-auto 
-            md:snap-x 
-            md:snap-mandatory 
-            px-4 md:px-10 
-            gap-8 
-            w-full 
-            max-w-full
-          "
-        >
+      <div
+  className="
+    grid 
+    grid-cols-1 
+    sm:grid-cols-2 
+    md:flex 
+    md:flex-row 
+    md:gap-12 
+    md:overflow-x-auto 
+    md:snap-x 
+    md:snap-mandatory 
+    px-4 md:px-10 
+    gap-8 
+    w-full 
+    max-w-full 
+    scrollbar-hide
+  "
+>
           {projectData.map((proj, i) => (
             <motion.div
               key={i}

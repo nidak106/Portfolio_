@@ -13,7 +13,6 @@ const Contact = () => {
     e.preventDefault();
 
     try {
-      // Send data to FormSubmit
       await fetch('https://formsubmit.co/ajax/nidaaffankhan3@gmail.com', {
         method: 'POST',
         headers: {

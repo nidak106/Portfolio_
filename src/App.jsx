@@ -7,6 +7,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
+import Prac from './components/Prac'
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -69,6 +70,7 @@ function App() {
       <Projects />
       <Contact />
       <Footer/>
+      <Prac/>
     </div>
   );
 }

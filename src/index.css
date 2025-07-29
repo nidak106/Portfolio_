@@ -17,3 +17,11 @@ html {
     opacity: 0;
   }
 }
+/* Custom utility to hide scrollbar cross-browser */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
